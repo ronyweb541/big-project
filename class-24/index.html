@@ -8,57 +8,44 @@
 	<link rel="stylesheet" href="style.css">
 
 </head>
-	<body>
-		<div class="container">
-				<h1 class="text-center">Hello jQuery!</h1>
-				<button type="button" class="btn btn-success" id="read">Read the Article</button>
-			
-				<p class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<body>
+<div class="container">
+	<h1 class="text-center">Hello jQuery!</h1>
+	<button type="button" class="btn btn-success" id="read">Read the Article</button>
+	<p class="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-				<div class="myForm">
-					<form action="submit.html" onsubmit="return validation()">
-						<div class="mb-3">
-							<input type="text" class="form-control" name="text" placeholder="Enter your name" id="userInfo">
-							<span class="error" id="user-error"> </span>
-						</div>
-
-						<div class="mb-3">
-							<input type="email" class="form-control" name="email" placeholder="Enter your email" id="user-mail">
-							<span class="error" id="errorMail"> </span>
-						</div>
-
-						<div class="mb-3">
-							<input type="password" class="form-control" name="password" placeholder="Enter your password" id="user-passw">
-							<span class="error" id="errorPwd"> </span>
-						</div>
-
-						<div class="mb-3">
-							<input type="checkbox" id="tnc" name="checkbox" value="Yes">
-							<label for="tnc" id="checkMe">I Agree</label>
-							
-						</div>
-						
-
-						
-						<input type="submit" class="btn btn-primary" value="Register">
-					</form>
-				</div>
-				
+	<div class="myForm">
+		<form action="submit.html" onsubmit="return validation()">
+			<div class="mb-3">
+				<input type="text" class="form-control" name="text" placeholder="Enter your name" id="userInfo">
+				<span class="error" id="user-error"> </span>
 			</div>
+			<div class="mb-3">
+				<input type="email" class="form-control" name="email" placeholder="Enter your email" id="user-mail">
+				<span class="error" id="errorMail"> </span>
+			</div>
+			<div class="mb-3">
+				<input type="password" class="form-control" name="password" placeholder="Enter your password" id="user-passw">
+				<span class="error" id="errorPwd"> </span>
+			</div>
+			<div class="mb-3">
+				<input type="checkbox" id="tnc" name="checkbox" value="Yes">
+				<label for="tnc" id="checkMe">I Agree</label>
+			</div>
+			<input type="submit" class="btn btn-primary" value="Register">
+		</form>
+	</div>
+</div>
 
-		</div>
-		
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/custom.js"></script>
 
-
-
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<script src="js/custom.js"></script>
-	</body>
+</body>
 </html>
