@@ -1,0 +1,323 @@
+@font-face{
+	src: url('fonts/Poppins-Regular.ttf');
+	font-family: 'Poppins';  //we can also any name. Such as tanbin.
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+}
+
+/*=====Header Section Design=======*/
+
+.header-section{
+	background-image: url(../images/3.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 20px 0;
+}
+.header-overlay{
+	background-color: rgba(0, 0, 0, .5);
+	height: 100vh;
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.header-top{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+.logo{
+	width: 10%;	
+}
+
+.menu{
+	width: 85%;
+}
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	font-size:16px;
+	text-transform: capitalize;
+	transition: 0.2s;
+}
+.menu ul li a:hover{
+	transform: translateY(-5px);
+	color: hotpink;
+}
+
+.header-bottom{
+	width: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+.header-bottom h1{
+	letter-spacing: 2.5px;
+	color: #fff;
+	margin-bottom: 20px;
+	font-size: 35px;
+}
+.header-bottom p{
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+.header-bottom a{
+	color: #fff;
+	border: 2px solid #aaa;
+	margin-top: 15px;
+	display: inline-block;
+	padding: 7px 20px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	background-color:;
+	transition: .3s;
+}
+
+.header-bottom a:hover{
+	background-color: #ff7979;
+	color: #f9ca24;
+}
+
+/*==========About Section Design============*/
+.about-section{
+	background-color: #fff;
+	padding:100px 0;
+
+}
+.about-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: grey;
+}
+.about-image{
+	width: 30%;
+}
+
+.about-text{
+	width: 65%;
+}
+.about-text h2{
+	font-size: 33px;
+	margin-bottom: 20px;
+}
+.about-text h2 span{
+	color: #006266;
+	font-style: italic;
+}
+.about-text p{
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	font-size: 15px;
+}
+.about-text a{
+	margin-top: 20px;
+	border: none;
+	background-color: mediumseagreen;
+	padding: 7px 20px;
+	font-size: 20px;
+	transition: .5s;
+	display: inline-block;
+	border-radius: 4px;
+}
+.about-text a:hover{
+	background-color: orange;
+	color: #ff0000;
+	opacity: .9;
+}
+
+
+/*======Staff section Design======*/
+
+.staff-section{
+	background-color: lightgoldenrodyellow;
+	padding: 100px 0;
+}
+.staff-title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.staff-title h2{
+	font-size: 33px;
+	color: #535c68;
+}
+
+.member-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	
+}
+.member{
+	width: 23.5%;
+}
+.member-image{
+	position: relative;
+	overflow: hidden;
+}
+
+.member-info{
+	text-align: center;
+	padding: 10px 0;
+}
+.member-info h4{
+	font-style: italic;
+}
+.member-info h6{
+	letter-spacing: .8px;
+}
+
+
+/*=====Social Icon Design=====*/
+
+.social-icon{
+	background-color: #535c68;
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	height: 30px;
+	width: 100%;
+	transition: .5s;
+}
+.social-icon ul{
+	display: flex;
+	justify-content: center;
+}
+
+.social-icon ul li a{
+	color: #fff;
+	padding: 5px 15px;
+	display: block;
+}
+.member-image:hover .social-icon{
+	bottom: 0;
+}
+
+/*Design of contact area*/
+
+.contact-area{
+	background-color: #f5f6fa;
+	padding: 100px 0;	
+}
+.section-title{
+	text-align: center;
+	color: gray;
+	width: 200px;
+	margin: 40px auto;
+}
+.contact-form{
+	background-color: #487eb0;
+	width: 40%;
+	margin: 0 auto;
+	position: relative;
+	padding: 30px 20px;
+	color: #fff;
+}
+.user-name{
+	display: flex;
+	justify-content: space-between;
+}
+
+.user-name label,
+.user-mail label,
+.user-pwd label,
+.message label{
+	display: block;
+	line-height: 2em;
+	color: #fff;
+	font-size: 14px;
+}
+.user-name input,
+.user-mail input,
+.user-pwd input,
+.message textarea{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 15px;
+	border: none;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+	color: #000;
+	font-size: 14px;
+}
+.user-name input,
+.user-mail input,
+.user-pwd input,
+.message textarea:focus{
+	outline: none;
+}
+
+.first-name{
+	width: 48%;
+}
+.last-name{
+	width: 48%;
+}
+.submit{
+	
+}
+button{
+	padding: 10px 30px;
+	background-color: #9821bc;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	transition: .3s;
+	cursor: pointer;
+}
+.submit button:hover{
+	border-radius: 20px;
+	background-color: palegoldenrod;
+	color:#333;
+}
+.submit button i{
+	transition: .3s;
+}
+.submit button:hover i{
+	margin-left: 5px;
+}
+
+/*=====Footer Design=====*/
+
+footer{
+	background-color: #000;
+	padding: 10px 0;
+}
+footer p{
+	color: #fff;
+	text-align: center;
+
+}

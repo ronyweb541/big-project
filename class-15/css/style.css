@@ -26,14 +26,13 @@ img{
 /*=====Header Section Design=======*/
 
 .header-section{
-	background-image: url('images/banner.jpg');
+	background-image: url('../images/3.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 20px 0;
 }
 .header-overlay{
-	
+	background:rgba(0, 0, 0, .60);
 	height: 100vh;
 }
 .container{
@@ -65,8 +64,7 @@ img{
 	padding: 10px 20px;
 	display: block;
 	color: #fff;
-	font-size:20px;
-	font-weight: bold;
+	font-size:18px;
 	text-transform: capitalize;
 	transition: 0.2s;
 }
