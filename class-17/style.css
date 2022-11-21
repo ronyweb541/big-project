@@ -1,0 +1,57 @@
+
+
+/*=======Design of Box-1======*/
+.box-1{
+	background-color: #fff;
+}
+
+
+/*====Design of Box-2====*/
+.box-2{
+	background-color: #ecf0f1;
+	padding: 100px 0;
+}
+.box-2 a{
+	margin-top: 20px;
+}
+
+/*=====Design of Box-3=====*/
+.box-3{
+	background-color: #95a5a6;
+	padding: 50px 0;
+	
+	color: #f1f1f1;
+}
+.box-3 h2{
+	color: #2c3e50;
+}
+
+
+/*======Design-box-4======*/
+
+.box-4{
+	background-color: rgba(0, 0, 0, .1);
+	padding: 100px 0;
+	
+}
+.box-4 img{
+	margin-bottom: 20px;
+	transition: .3s;
+}
+.box-4 img:hover{
+	transform: translateY(-5px);
+	
+}
+.box-4 h5{
+ font-style: italic;
+}
+
+.course-title{
+	text-align: center;
+	margin-bottom: 30px;
+	font-style: italic;
+}
+.box-5{
+	background-color: #fff;
+	padding: 100px 0;
+}

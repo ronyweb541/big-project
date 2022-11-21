@@ -1,0 +1,86 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial, helvetica, sans-serif;
+}
+
+.menu{
+	background-color: #00cec9;
+}
+.menu> ul{
+	display: flex;
+	justify-content: center;
+}
+.menu ul li{
+	list-style-type: none;
+	position: relative;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 30px;
+	display: block;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #fff;
+
+}
+
+.menu ul li a:hover{
+	background-color: dodgerblue;
+
+}
+
+.menu ul li ul{
+	display: none;
+	background-color: #b2bec3;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	z-index: 2;
+	width: 205px;
+	border-top: 2px solid #aaa;
+}
+
+.menu ul li:hover ul{
+	display: block;
+}
+
+
+.banner{
+	
+	background: url(images/moon-31665.png);
+	padding: 270px 0;
+	
+}
+
+
+.banner h1{
+	color: #000;
+	text-align: center;
+}
+
+
+
+
+
+.big-box{
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	margin: 100px auto;
+	position: relative;
+	z-index: 1;
+}
+.small-box{
+	width: 100px;
+	height: 100px;
+	background-color: hotpink;
+	position: absolute;
+	left: 0;
+	top: 0;
+}

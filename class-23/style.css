@@ -1,0 +1,10 @@
+h1{
+	color: rgb(105, 135, 125);
+	text-decoration: underline;
+	font-style: italic;
+}
+
+
+p{
+	display: none;
+}

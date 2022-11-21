@@ -1,0 +1,133 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1{
+	width: 300px;
+	height: 300px;
+	background-color: #535c68;
+	margin: 100px auto;
+	box-shadow: 10px 5px 3px #eb4d4b;
+	color: #fff;
+
+}
+.box1:hover{
+	box-shadow: 20px 10px 3px #ff7979;
+}
+.box1 h1{
+	text-align: center;
+	text-shadow: 10px -3px 2px red;
+}
+
+
+.btnDiv{
+	background-color: #eb4d4b;
+	padding: 100px 0;
+}
+
+.myBtn{
+	text-align: center;
+
+}
+.myBtn button{
+	padding: 10px 30px;
+	background-color: #6ab04c;
+	border-radius: 10px;
+	border: none;
+	font-size: 20px;
+	color: #fff;
+	transition: .5s;
+}
+.myBtn button:hover{
+	border-radius: 10px 30px;
+	background-color: #30336b;
+}
+
+
+/*=======Design of Bangladeshi Flag========*/
+
+
+/*.flag-area{
+	width: 650px;
+	height: 350px;
+	background-color:green;
+	margin: 100px auto 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.flag-circle{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background-color: #ff0000;
+
+}*/
+
+
+.flag-area{
+	width: 600px;
+	height: 300px;
+	background-color: green;
+	margin: 100px auto;
+	position: relative;
+
+}
+
+.flag-circle{
+	width: 150px;
+	height: 150px;
+	background-color: #ff0000;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*====Design of box two*/
+
+.box2{
+	width: 800px;
+	height: 400px;
+	background-color: #eb4d4b;
+	margin: 0 auto 100px;
+	transition: .5s;
+
+}
+.box2:hover{
+	transform: translate(120px);
+}
+
+
+/*=======Design of box3=======*/
+.box3{
+	width: 400px;
+	height: 400px;
+	background-color: green;
+	margin: 100px auto;
+	transition: 1200ms;
+}
+.box3:hover{
+	transform: scale(0.5) rotate(360deg); // complete part of it one-1
+}
+
+
+/*==========Design of box4========*/
+.box4{
+	width: 650px;
+	height: 350px;
+	background-color: #f9ca24;
+	margin: 100px auto;
+	transition: .5s;
+}
+.box4:hover{
+
+	transform: skewX(-20deg);
+}

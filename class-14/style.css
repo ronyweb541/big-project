@@ -1,0 +1,239 @@
+@font-face{
+	src: url('fonts/Poppins-Regular.ttf');
+	font-family: 'Poppins';  //we can also any name. Such as tanbin.
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+	display: block;
+	height: auto;
+
+}
+
+/*=====Header Section Design=======*/
+
+.header-section{
+	background-image: url(images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 20px 0;
+}
+.header-overlay{
+	background-color: rgba(0, 0, 0, .5);
+	height: 100vh;
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.header-top{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+.logo{
+	width: 10%;
+	
+}
+
+.menu{
+	width: 85%;
+	
+}
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.menu ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	font-size:20px;
+	font-weight: bold;
+	text-transform: capitalize;
+	transition: 0.2s;
+}
+.menu ul li a:hover{
+	transform: translateY(-5px);
+	color: hotpink;
+}
+
+.header-bottom{
+	width: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+.header-bottom h1{
+	letter-spacing: 2.5px;
+	color: #fff;
+	margin-bottom: 20px;
+	font-size: 35px;
+}
+.header-bottom p{
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+
+}
+.header-bottom a{
+	color: #fff;
+	border: 2px solid #aaa;
+	margin-top: 15px;
+	display: inline-block;
+	padding: 7px 20px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	background-color:;
+	transition: .3s;
+}
+
+.header-bottom a:hover{
+	background-color: #ff7979;
+	color: #f9ca24;
+}
+
+/*==========About Section Design============*/
+.about-section{
+	background-color: #fff;
+	padding:100px 0;
+
+}
+.about-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	color: grey;
+}
+.about-image{
+	width: 30%;
+}
+
+.about-text{
+	width: 65%;
+}
+.about-text h2{
+	font-size: 33px;
+	margin-bottom: 20px;
+
+}
+.about-text h2 span{
+	color: #006266;
+	font-style: italic;
+	
+}
+.about-text p{
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	font-size: 15px;
+}
+.about-text a{
+	margin-top: 20px;
+	border: none;
+	background-color: mediumseagreen;
+	padding: 7px 20px;
+	font-size: 20px;
+	transition: .5s;
+	display: inline-block;
+	border-radius: 4px;
+}
+.about-text a:hover{
+	background-color: orange;
+	color: #ff0000;
+	opacity: .9;
+}
+
+
+/*======Staff section Design======*/
+
+.staff-section{
+	background-color: lightgoldenrodyellow;
+	padding: 100px 0;
+}
+.staff-title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.staff-title h2{
+	font-size: 33px;
+	color: #535c68;
+}
+
+.member-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	
+}
+.member{
+	width: 23.5%;
+}
+.member-image{
+	position: relative;
+	overflow: hidden;
+}
+
+.member-info{
+	text-align: center;
+	padding: 10px 0;
+}
+.member-info h4{
+	font-style: italic;
+}
+.member-info h6{
+	letter-spacing: .8px;
+}
+
+
+/*=====Social Icon Design=====*/
+
+.social-icon{
+	background-color: #535c68;
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	height: 30px;
+	width: 100%;
+	transition: .5s;
+	
+	
+}
+.social-icon ul{
+	display: flex;
+	justify-content: center;
+
+}
+
+
+.social-icon ul li a{
+	color: #fff;
+	padding: 5px 15px;
+	display: block;
+	
+}
+
+.member-image:hover .social-icon{
+	bottom: 0;
+}

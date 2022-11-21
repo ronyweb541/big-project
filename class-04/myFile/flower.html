@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Flower page</title>
+</head>
+<body>
+	<h1>This is a nice Flower.</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<a href="../index1.html">Home page</a> <br>
+	<img src="../images/BangladeshLOgo.jpg" alt="Picture of a tiger" width="400" height="300">
+	
+	<img src="../images/pexels-photo-5239600.jpeg " alt="lady" height="400" width="300">
+
+
+
+
+
+	<script type="text/javascript">
+		
+		//swab variables
+
+		/*var a=20, b=30;
+		[a, b] = [b,a];
+		document.write(a + "<br>");
+		document.write(b);*/
+
+		//object destructuring
+
+		/*const person = {
+			name: "Anisul Islan",
+			id	: 203,
+			gpa :3.63
+		}
+
+
+		const {name, id, gpa} =  person;
+		document.write(name);
+		document.write(id);
+		
+		document.write(gpa);*/
+
+		const student = {
+			Name : "Asikur Rahman",
+			Roll: 102,
+			Village : "Kalabogi",
+			Mobile : "01776077050",
+		}
+
+
+		const studentInfo = ({Name, Roll, Village, Mobile}) => {
+			document.write(`${Name}, ${Roll}, ${Village}, ${Mobile}`)
+		}
+
+		studentInfo(student);
+
+	</script>
+
+</body>
+</html>

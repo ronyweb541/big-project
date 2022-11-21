@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+/*
+==========Design of Box-1===========
+*/
+.box-1{
+	background-color: skyblue;
+	width: 250px;
+	height: 200px;
+	margin: 100px auto;
+	padding: 20px 0;
+	position: relative;
+}
+
+.box-1 h2{
+	text-align: center;
+
+}
+.box-1::after{
+	content: '';
+	width: 20px;
+	height: 20px;
+	background-color: skyblue;
+	display: block;
+	position: absolute;
+	left: 50px;
+	top: 0;
+	transition: .5s;
+
+}
+.box-1:hover::after{
+	transform: rotate(45deg);
+	top: -10px;
+}
+
+.box-1 h2:after{
+	content: '';
+	width: 0;
+	height: 4px;
+	background-color: red;
+	display: block;
+	position: absolute;
+	left: 30px;
+	opacity: .40;
+	transition: .5s;
+
+}
+.box-1:hover h2:after{
+	width: 120px;
+}
+
+/*
+========Box -2 ar Design=============
+*/
+
+.box-2{
+	
+	width: 20%;
+	margin: 100px auto;
+	position: relative;
+
+}
+
+.box-2 img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.box-2::before{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	background-color: black;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: .50;
+	transition: .5s;
+
+}
+.box-2:hover::before{
+	width: 100%;
+	height: 100%;
+}
+
+/*
+=======Design of Garment section============
+*/
+.garment-section{
+	background-color: #f7b731;
+	padding: 100px 0;
+	margin-bottom: 100px;
+}
+.container{
+	
+	width: 90%;
+	margin: 0 auto;
+}
+
+.product-title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.product-title h2{
+	font-size: 35px;
+	color: #000000;
+	opacity: .8;
+}
+
+.all-products{
+	display: flex;
+	justify-content: space-between;
+	color: #000000;
+
+}
+
+.product{
+	width: 23.5%;
+}
+.product-image{
+	position: relative;
+	overflow: hidden;
+}
+.product-image img{
+	width: 100%;
+	height: auto;
+	display: block;
+
+}
+
+.product-info{
+	text-align: center;
+	padding: 10px 0;
+}
+.product-info h4{
+	opacity: .6;
+}
+.product-info h6{
+	opacity: .8;
+	letter-spacing:.2em;
+}
+
+.social-icon{
+	background-color: #ff0000;
+	position: absolute;
+	top: 0;
+	right: -30px;
+	height: 100%;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .5s;
+	opacity: .8;
+
+
+}
+.social-icon ul{
+	list-style: none;
+	
+}
+.social-icon ul li a{
+	color: #fff;
+	padding: 10px 0;
+	display: block;
+	font-size: 20px;
+}
+.social-icon:hover ul{
+
+}
+.product-image:hover .social-icon{
+	
+	right: 0;
+}

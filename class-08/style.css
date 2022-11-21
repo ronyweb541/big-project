@@ -1,0 +1,64 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: arial, helvetica, sans-serif;
+}
+
+/* Main div Design */
+.contact-form{
+	background-color: #40739e;
+	color: #fff;
+	width: 30%;
+	margin: 100px auto;
+	padding: 40px 25px;
+}
+
+/* Design of section title*/
+.section-title h2{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/*No focus all form input*/
+.registration-booking input:focus{
+	outline: none;
+}
+
+/*All div margin-bottom */
+.user-name, .contact, .amountSeat{
+	margin-bottom: 15px;
+}
+
+/*All div label display block*/
+.user-name label, .contact label, .amountSeat label{
+	display: block;
+	margin-bottom: 5px;
+}
+
+/* All div input Design */
+.user-name input[type=text], .contact input[type=text], .amountSeat input[type=number]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px 0;
+}
+
+/*Button Design*/
+.registration-booking form> input{
+	background-color: dodgerblue;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+	border: none;
+}
+
+/*Hover effect of Button*/
+.registration-booking form> input:hover{
+	background-color:#74b9ff;
+}
+

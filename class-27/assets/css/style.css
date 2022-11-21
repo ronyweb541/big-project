@@ -1,0 +1,653 @@
+/*=-=-=-=-=-=-=-=-=-=-=-=
+	Template Name: Veer
+	Created By: M M Taiyebur Rahman
+	Envato Profile: https: //themeforest.net
+	Website: https: //mywebsite.com
+	Version: 1.0.0
+	Support: 
+=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+	[CSS TABLE CONTENT]
+-------------------------
+1.0 - General Css
+2.0 - Typography
+3.0 - Global Settings
+4.0 - Header Area
+5.0 - About Area
+6.0 - Service Area
+7.0 - Work Area
+8.0 - Client Area
+9.0 - Best Team Area
+10.0 -Blog Area
+11.0 -Contact Area
+12.0 -Footer Area
+=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+	[1.0 - General Css]
+  =-=-=-=-=-=-=-=-=-=-=-= */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=
+	[2.0 - Typography Css]
+  =-=-=-=-=-=-=-=-=-=-=-=-= */
+
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+ul{
+	list-style: none;
+}
+
+.veer-content h1{
+	font-size: 70px;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=
+	[3.0 - Typography Area]
+  =-=-=-=-=-=-=-=-=-=-=-=-= */
+
+
+
+
+  /*=-=-=-=-=-=-=-=-=-=-=-=
+	[4.0 - Header Area]
+    =-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-header{
+	background-image: url(../images/banner.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+.veer-overlay{
+ height: 100vh;
+ background-color: rgba(0, 0, 0, .20);
+}
+.veer-header-top{
+	background-color: transparent;
+}
+.veer-logo{
+	padding: 20px 0;
+	display: block;
+}
+.veer-logo a{
+	
+}
+.veer-logo img{
+	
+}
+
+
+.veer-main-menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.veer-main-menu ul li{}
+.veer-main-menu ul li a{
+	padding: 20px 25px;
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	transition: .5s;
+	font-family: 'Poppins', sans-serif;
+
+}
+.veer-main-menu ul li a:hover{
+	transform: translateX(-5px);
+}
+
+.veer-mobile-menu{
+	display: none;
+}
+
+
+.veer-header-bottom{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-align: center;
+}
+.veer-content{
+	font-weight:500;
+}
+.veer-content em{
+	font-size: 20px;
+}
+.veer-content h1 span{
+	font-style: italic;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+	[5.0 - About Area]
+  =-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-about{
+	background-color: #f2f6fa;
+	padding: 120px 0 60px;
+
+}
+.veer-about-content{}
+.veer-about-content em{
+	font-size: 30px;
+}
+.veer-about-content h2{
+	font-size: 35px;
+}
+.veer-about-content p{
+	font-size: 14px;
+}
+.veer-about-content button{
+	padding: 7px 25px;
+	border: none;
+	text-transform: uppercase;
+	background-color: #3d9cd8;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+}
+.veer-about-image{
+	padding: 0 25px;
+	position: relative;
+	z-index: 5;
+}
+.veer-about-image a{}
+.veer-about-image img{
+	position: relative;
+	z-index: 5;
+}
+.veer-about-image::before{
+	content: "";
+	width: 205px;
+	height: 85px;
+	border: 10px solid #bddcf0;
+	display: block;
+	position: absolute;
+	top: -30px;
+	left: -20px;
+}
+
+.veer-about-image::after{
+	content: "";
+	width: 120px;
+	height: 90px;
+	border: 10px solid #bddcf0;
+	display: block;
+	position: absolute;
+	right: 15px;
+	bottom: -30px;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+	[6.0 - Service Area ]
+  =-=-=-=-=-=-=-=-=-=-=-= */
+
+
+.veer-services{
+	padding: 60px 0;
+	background-color: #fff;
+}
+.veer-general-text{
+	text-align: center;
+	position: relative;
+}
+
+.veer-general-text::before{
+	content: "";
+	width: 85px;
+	height: 1px;
+	display: block;
+	background-color: #009cff;
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+
+.veer-general-text::after{
+	content: "";
+	width: 85px;
+	height: 1px;
+	display: block;
+	background-color: #85d0ff;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+}
+
+.veer-general-text h2{
+	margin-bottom: 45px;
+}
+.veer-general-text p{
+	margin-bottom:60px;
+	font-size: 14px;
+}
+
+.veer-service-content{
+	text-align: center;
+}
+.veer-service-content a{}
+.veer-service-content a img{
+	margin-bottom: 25px;
+}
+.veer-service-content h5{
+	font-size: 16px;
+}
+.veer-service-content p{
+	font-size: 14px;
+	margin-bottom: 120px;
+}
+.veer-video-play{
+	background: url('../images/video.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 120px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.veer-video-play i{
+	font-size: 45px;
+	color: #fff;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+   [7.0 - Recen Work ]
+  =-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-works{
+	background-color: #fff;
+	padding: 85px 0;
+	
+}
+.recen-work-button{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.veer-work-buttons button{
+	background-color: transparent;
+	color: #252525;
+	border: none;
+	padding: 0 10px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.veer-work-buttons button.active{
+	color: #64a6ce;
+	text-decoration: line-through;
+}
+
+.veer-works img{
+	margin-bottom: 25px;
+}
+.work-btn{
+	text-align: center;
+	margin-top: 50px;
+	
+}
+.work-btn button{
+	padding: 15px 30px;
+	font-size: 12px;
+	text-transform: uppercase;
+	background-color: #3d9cd8;
+	color: #fff;
+	border: none;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+  [8.0 - Client Area ]
+  =-=-=-=-=-=-=-=-=-=-=-= */
+  .veer-client-reviews{
+  	padding:180px 0;
+  	background-color: #f0f4f8;
+
+  }
+
+
+  .veer-client-title{
+  	text-align: center;
+  	margin: 0 auto;
+  	position: relative;
+  }
+
+   .veer-client-title h2{
+   	margin-bottom: 45px;
+   	
+   }
+
+  .veer-client-title::before{
+	content: "";
+	width: 85px;
+	height: 1px;
+	display: block;
+	background-color: #a3a3a3;
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+
+.veer-client-title::after{
+	content: "";
+	width: 85px;
+	height: 1px;
+	display: block;
+	background-color: #a3a3a3;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+}
+
+    .veer-client-title p{
+    	margin-bottom:30px;
+    	font-size: 14px;
+    }
+
+    .veer-client-info{
+    	text-align: center;
+    }
+    .veer-client-info img{
+    	width: 200px;
+    	height: 200px;
+    	border-radius: 50%;
+    	margin-bottom: 20px;
+    }
+    .veer-client-info p{
+    	margin-bottom:45px;
+
+    }
+    .veer-client-info h6{
+
+    	color: #919191;
+    }
+
+    .client-status{
+    	text-align: center;
+    	color: #e67d5f;
+    }
+  
+/*=-=-=-=-=-=-=-=-=-=-=-=
+  [9.0 - Best Team Area]
+  =-=-=-=-=-=-=-=-=-=-=-= */
+
+.veer-best-team{
+	
+	background-color: #fff;
+	padding-top: 85px;
+}
+
+.veer-best-team{
+	display: flex;
+	justify-content:center;
+}
+.veer-best-team-title{
+	text-align: center;
+	position: relative;
+}
+
+
+.veer-best-team-title::before{
+	content: "";
+	width: 85px;
+	height: 1px;
+	display: block;
+	background-color: #959595;
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+
+.veer-best-team-title::after{
+	content: "";
+	width: 85px;
+	height: 1px;
+	display: block;
+	background-color: #959595;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+}
+.veer-best-team-title h2{
+	margin-bottom: 50px;
+}
+.veer-best-team-title p{
+	
+}
+
+.owl-nav{}
+
+.owl-nav button.owl-prev{
+	position: absolute;
+	left: 0;
+}
+.owl-nav button.owl-prev span{
+	color: red;
+	font-size: 30px;
+}
+
+
+.owl-nav button.owl-next{
+	position: absolute;
+	right: 0;
+}
+.owl-nav button.owl-next span{
+	font-size: 30px;
+	color: red;
+}
+
+
+.social-icon{
+	
+	position: absolute;
+	top: 250px;
+	left: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-icon i{
+	padding: 0 15px;
+	color: #000;
+}
+
+.veer-team-carousel{
+	position: relative;
+}
+.team-member{
+	padding: 0 0 30px;
+	background-color: #f3f6f7;
+	text-align: center;
+	margin-right: 15px;
+}
+
+.team-member h6{
+	margin-top: 30px;
+}
+.team-member em{
+	color: #89b2c5;
+	margin-bottom: 30px;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+  	[10.0 - Blog Area]
+  =-=-=-=-=-=-=-=-=-=-=-=*/
+  .veer-blog{
+  	padding: 0 0 115px;
+  }
+
+.veer-blog-img img{
+	width: 250px;
+	height: auto;
+	
+}
+.veer-blog-text{
+	margin-left: 5px;
+}
+.veer-blog-text h4{
+  margin-top: 40px;
+  	color: #4c97c7;
+  }
+  .veer-blog-text h5 b{
+  	color: red;
+  	padding: 5px;
+  
+  }
+  .veer-blog-text p{
+  	margin-top: 30px;
+  	font-size: 12px;
+  	margin-bottom: 40px;
+  }
+
+  span i{
+  	padding: 0 10px;
+  }
+
+  .veer-blog-carousel{
+  	padding: 115px 0;
+
+  }
+
+  .veer-blog-carousel .item a img{
+  	width: 150px;
+  	height: 150px;
+  	display: block;
+  	padding: 0 10px;
+  }
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+  [11.0 - Contact Form]
+  =-=-=-=-=-=-=-=-=-=-=-=*/
+  .veer-contact{
+  	background-image: url(../images/conimg.png);
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+  }
+  .veer-contact-overlay{
+  	height: 100vh;
+  	background-color: rgba(0, 0, 0, .10);
+  }
+
+  .veer-contact-form{
+  	
+  	width: 80%;
+  	height: auto;
+  	margin: 150px auto;
+  	background-color: #211f2d;
+  	padding: 30px 200px;
+  }
+
+  .veer-contact-title h5{
+  	color: #fff;
+  }
+
+  .user input[type=text], .user input[type=email], .user-message textarea{
+  	font-size: 15px;
+  	border: none;
+  	background-color: transparent;
+  }
+
+.user input[type=text]{
+	border-top-style: 0;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: 0;
+	border-color: #74737a;
+	padding: 0 25px;
+	color: #565662;
+}
+
+.user input[type=email]{
+	border-top-style: 0;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-bottom-style: 0;
+	border-color: #74737a;
+	padding: 0 25px;
+	color: #565662;
+}
+
+.user-message textarea{
+	border-top-style: solid;
+	border-left-style: solid;
+	border-right-style: 0;
+	border-bottom-style: 0;
+	border-color: #74737a;
+	padding: 10px 25px;
+	margin-top: 5px;
+	color: #565662;
+}
+.submitBtn{
+	padding: 15px 40px;
+	margin-top: 10px;
+	display: inline-block;
+	background-color: #3d9cd8;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=
+  	[12.0 - Footer Area]
+  =-=-=-=-=-=-=-=-=-=-=-=*/
+.veer-footer{
+	padding: 30px 0;
+
+}
+.footer-menu{}
+.footer-menu ul{
+	display: flex;
+	justify-content: center;
+}
+
+.footer-menu ul li a{
+	padding: 0 20px;
+	text-transform: uppercase;
+	display: block;
+	color: #757575;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.footer-social-icon{
+	display: flex;
+	justify-content: flex-end;
+}
+.footer-social-icon i{
+	padding: 0 20px;
+	color: #949494;
+	font-size: 20px;
+}

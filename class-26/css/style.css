@@ -1,0 +1,129 @@
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+.header{
+	width: 250px;
+	background-color:#e55039;
+	height: 100vh;
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: -250px;
+}
+.header-close{
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+.header-close i{
+	cursor: pointer;
+	color: #fff;
+	font-size: 18px;
+}
+
+.menu{}
+.menu ul{
+	padding: 0;
+	list-style: none;
+	
+
+}
+.menu ul li{}
+.menu ul li a{
+	color: #fff;
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+
+.menuBtn{
+	padding: 7px 20px;
+	background-color: #c8d6e5;
+	border: none;
+	border-radius: 4px;
+	color: #10ac84;
+	font-weight: bold;
+	font-size: 16px;
+	opacity: 0.80;
+}
+
+.section-one{
+	background-image: url('images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.overlay{
+	background-color: rgba(0, 0, 0, .20);
+	height: 100vh;
+}
+.section-one-content{
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-align: center;
+}
+.section-one-content h1{
+	margin-bottom: 20px;
+}
+.section-one-content p{}
+
+
+
+/*=========Section two css=============*/
+.section-two{
+	background-color: #fff;
+	padding: 100px 0;
+
+}
+.section-two-title h2{
+	text-align: center;
+	margin-bottom: 40px;
+	color: #006266;
+}
+.section-two-item{
+	text-align: center;
+}
+.section-two-item h4{
+	margin-bottom: 15px;
+	color: #B53471;
+}
+.section-two-item p{}
+
+
+/*==========Section three Css============*/
+
+
+.section-three{
+	background-color: #f5f6fa;
+	padding: 100px 0;
+}
+
+
+.ruller{
+	
+	background-color: maroon;
+	border-radius: 3px;
+	cursor: pointer;
+	color: #fff;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 15px;
+	display: none;
+	
+}
+
+.ruller i{
+	font-size: 25px;
+	
+}

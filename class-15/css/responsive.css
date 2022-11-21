@@ -1,0 +1,41 @@
+@media(max-width: 991px){
+	.menu{
+		display: none;
+	}
+	.menu-icon{
+		width: 80%;
+		display: block;
+		text-align: right;
+
+	}
+	.menu-icon i{
+		color: #fff;
+		padding: 10px;
+		font-size: 25px;
+	}
+	.about-image{
+		width: 100%;
+	}
+
+	.about-image img{
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.about-text{
+		width: 100%;
+	}
+	.member{
+		width: 100%;
+	}
+	.member-image img{
+		
+		margin: 0 auto;
+	}
+
+	.contact-form{
+		width: 100%;
+	}
+	footer p{
+		width: 100%;
+	}
+}
